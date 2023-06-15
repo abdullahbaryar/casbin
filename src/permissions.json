@@ -1,0 +1,12 @@
+{
+  "user": {
+    "read": ["user_data"]
+  },
+  "subAdmin": {
+    "read": ["subAdmin_data"]
+  },
+  "admin": {
+    "read": ["user_data", "subAdmin_data"],
+    "write": ["user_data", "subAdmin_data"]
+  }
+}
